@@ -2,14 +2,7 @@
 # June 6, 2026
 # Advanced Python Module 1.3
 
-# Python program that calls a function and loops through a countdown
-
-# Ask the user how many bottles of beer are on the wall.
-# Pass that input to a function that manages the countdown.
-# The function should take the input and count backwards to 1
-# while displaying the number of remaining bottles of beer on the wall.
-# Once the count is down to 1, change lyrics to show "1 bottle of beer..."
-# At the end of the countdown, get back to the main program and remind the user to buy more beer.
+# Python program that calls a function and loops through a countdown with user input
 
 # Created function for loop and pass input
 def countdown(beer_amount):
