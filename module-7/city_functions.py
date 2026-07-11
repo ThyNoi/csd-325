@@ -1,11 +1,11 @@
 # Eric Sengvanhpheng
-# July 9, 2026
+# July 11, 2026
 # Advanced Python Module 7.2
 
 # function that formats parameters
 def get_formatted_name(city_name, country_name, population='', language=''):
     
-    # capitolize only the city, country, and language
+    # capitalize only the city, country, and language
     city_name = city_name.title()
     country_name = country_name.title()
     language = language.title()
