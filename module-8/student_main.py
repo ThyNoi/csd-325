@@ -1,5 +1,5 @@
 # Eric Sengvanhpheng
-# July 2026
+# July 11, 2026
 # Advanced Python 8.2
 
 import json
@@ -10,15 +10,13 @@ def loop_json_list(file_path):
     with open(file_path) as f: # use file path variable here
        data = json.load(f)
 
-    print(type(data)) # get data type from the import, indent stays inside funtion
-    print()
-
     # loop through list
     for student in data:
         print(f"{student['F_Name']}, {student['L_Name']} :ID {student['Student_ID']}, Email = {student['Email']}")
 
 # original list output
 print("---- Notification: This is the original student list ----")
+print()
 loop_json_list('Student.json')
 print()
 
